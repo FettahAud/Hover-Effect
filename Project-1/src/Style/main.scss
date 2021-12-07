@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Six+Caps:regular);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display+SC:regular,italic,700,700italic,900,900italic);
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #ecebda;
+	display: grid;
+	place-items: center;
+	height: 100vh;
+	overflow: hidden;
+	&::before {
+		content: "";
+		height: 100vh;
+		position: absolute;
+		left: 12%;
+		top: 0;
+		border-left: 1px solid rgba(0, 0, 0, 0.2);
+	}
+}
+
+.cont {
+	margin-left: -10vw;
+	.title {
+		font-family: "six caps", sans-serif;
+		font-size: clamp(7rem, calc(2rem + 8vw), 12rem);
+		line-height: clamp(8rem, calc(3rem + 8vw), 13rem);
+		pointer-events: none;
+		position: relative;
+		&::before {
+			content: "";
+			position: absolute;
+			width: 10%;
+			height: 3px;
+			background-color: black;
+			left: -15%;
+			top: 15%;
+		}
+		.letter {
+			display: inline-block;
+			line-height: 1em;
+			clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+			transform: translateY(-50px);
+		}
+		.title-2,
+		.title-3 {
+			position: relative;
+			z-index: 2;
+		}
+	}
+	p {
+		font-family: "Playfair Display SC", serif;
+		font-size: 1.5rem;
+		margin-top: 2rem;
+		opacity: 0;
+	}
+}
+.water-bg {
+	position: absolute;
+	width: 40%;
+	height: 100vh;
+	z-index: -1;
+	right: 0;
+	background-color: #dcdbc9;
+	mix-blend-mode: luminosity;
+	opacity: 0.8;
+	background-image: url(https://images.pexels.com/photos/2482128/pexels-photo-2482128.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.img {
+	width: 16em;
+	height: 27em;
+	position: absolute;
+	top: 20%;
+	left: 30%;
+	z-index: 1;
+	clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+.cursor {
+	width: 3em;
+	height: 3em;
+	border: 1px solid rgba(0, 0, 0, 0.4);
+	border-radius: 50%;
+	position: absolute;
+	// z-index: 0;
+	margin-left: -1.5em;
+	margin-top: -1.5em;
+}
