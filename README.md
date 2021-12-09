@@ -12,3 +12,4 @@ Which is very easy and cool
 
 ## Live preview
 - [Project-1](https://fettahaud.github.io/Hover-Effect/Project-1/index.html)
+- [Project-2](https://fettahaud.github.io/Hover-Effect/Project-2/index.html)
