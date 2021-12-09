@@ -20,12 +20,3 @@ const hover = new hoverEffect({
     image2: './src/Assets/bg2.jpg',
     displacementImage: `./../Displacement/dis${i}.jpg`,
 });
-
-// img.replaceChildren()
-// new hoverEffect({
-//     parent: document.querySelector('.img'),
-//     intensity: 0.4,
-//     image1: './src/Assets/bg1.jpg',
-//     image2: './src/Assets/bg2.jpg',
-//     displacementImage: `./../Displacement/dis${i}.jpg`,
-// });
