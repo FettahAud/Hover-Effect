@@ -23,7 +23,30 @@ body {
 }
 select {
 	position: absolute;
-	top: 0;
-	right: 0;
-	margin: 2rem;
+	width: 140px;
+	height: 50px;
+	border: none;
+	top: 1rem;
+	right: 1rem;
+	border-radius: 5px;
+	background: #fff;
+}
+.angel {
+	position: absolute;
+	top: 5rem;
+	right: 1rem;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: flex-end;
+}
+input[type="number"] {
+	width: 100px;
+	height: 30px;
+	border: none;
+	border-radius: 5px;
+	background: #fff;
+	padding: 0 0.5rem;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+	margin-top: 0.5rem;
 }
