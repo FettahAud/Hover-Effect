@@ -3,7 +3,7 @@ This repo gonna wrap all projects i well make with [Hover-Effect](https://github
 Which is very easy and cool  
 ## Credites 
 - Photos by [Pexels](https://www.pexels.com/)
-- This Great Channel [Design Course](https://www.youtube.com/channel/UCVyRiMvfUNMA1UPlDPzG5Ow)
+- The Great Channel [Design Course](https://www.youtube.com/channel/UCVyRiMvfUNMA1UPlDPzG5Ow)
 
 ## Technologies
 - [GSAP](https://github.com/greensock/GSAP)
@@ -12,3 +12,4 @@ Which is very easy and cool
 
 ## Live preview
 - [Project-1](https://fettahaud.github.io/Hover-Effect/Project-1/index.html)
+- [Project-2](https://fettahaud.github.io/Hover-Effect/Project-2/index.html):
